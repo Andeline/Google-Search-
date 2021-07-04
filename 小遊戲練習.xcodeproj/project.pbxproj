@@ -9,21 +9,24 @@
 /* Begin PBXBuildFile section */
 		578AF19426396EBE00E65846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578AF19326396EBE00E65846 /* AppDelegate.swift */; };
 		578AF19626396EBE00E65846 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578AF19526396EBE00E65846 /* SceneDelegate.swift */; };
-		578AF19826396EBE00E65846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578AF19726396EBE00E65846 /* ViewController.swift */; };
+		578AF19826396EBE00E65846 /* flipACoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578AF19726396EBE00E65846 /* flipACoin.swift */; };
 		578AF19B26396EBE00E65846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578AF19926396EBE00E65846 /* Main.storyboard */; };
 		578AF19D26396EC100E65846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 578AF19C26396EC100E65846 /* Assets.xcassets */; };
 		578AF1A026396EC100E65846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 578AF19E26396EC100E65846 /* LaunchScreen.storyboard */; };
+		578AF1A926397DB500E65846 /* rollDice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578AF1A826397DB500E65846 /* rollDice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		578AF19026396EBE00E65846 /* 小遊戲練習.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "小遊戲練習.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		578AF19326396EBE00E65846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		578AF19526396EBE00E65846 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		578AF19726396EBE00E65846 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		578AF19726396EBE00E65846 /* flipACoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flipACoin.swift; sourceTree = "<group>"; };
 		578AF19A26396EBE00E65846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		578AF19C26396EC100E65846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		578AF19F26396EC100E65846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		578AF1A126396EC100E65846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		578AF1A826397DB500E65846 /* rollDice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rollDice.swift; sourceTree = "<group>"; };
+		578AF1AD2639B13A00E65846 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +61,8 @@
 			children = (
 				578AF19326396EBE00E65846 /* AppDelegate.swift */,
 				578AF19526396EBE00E65846 /* SceneDelegate.swift */,
-				578AF19726396EBE00E65846 /* ViewController.swift */,
+				578AF19726396EBE00E65846 /* flipACoin.swift */,
+				578AF1A826397DB500E65846 /* rollDice.swift */,
 				578AF19926396EBE00E65846 /* Main.storyboard */,
 				578AF19C26396EC100E65846 /* Assets.xcassets */,
 				578AF19E26396EC100E65846 /* LaunchScreen.storyboard */,
@@ -137,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				578AF19826396EBE00E65846 /* ViewController.swift in Sources */,
+				578AF19826396EBE00E65846 /* flipACoin.swift in Sources */,
 				578AF19426396EBE00E65846 /* AppDelegate.swift in Sources */,
 				578AF19626396EBE00E65846 /* SceneDelegate.swift in Sources */,
+				578AF1A926397DB500E65846 /* rollDice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +155,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				578AF19A26396EBE00E65846 /* Base */,
+				578AF1AD2639B13A00E65846 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
